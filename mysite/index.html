@@ -13,18 +13,32 @@
         html{
         	height: 100%;
         }
-        @keyframes myfirst {
-        	from{opacity:0}
-        	to{opacity: 100}
+        @keyframes abc {
+        	0%{opacity:0}
+        	25%{opacity: 100}
+		50%{opacity: 0}
+		100%{opacity: 0}
         }
-        p{animation: myfirst 2s infinite;}
+		@keyframes cba {
+                0%{opacity:0}
+        	50%{opacity: 0}
+		75%{opacity:100}
+		100%{opacity: 0}
+		}
+        p{
+		font-size:50%;
+		position:absolute;
+		width:50%;
+		text-align:center;
+		}
+		#abc{animation: abc 38s infinite;}
+		#cba{animation: cba 38s infinite;}
 	</style>
 </head>
 <body>
 	<audio src="./wav/aeonnight万古 - 教授鈴聲.mp3" controls="controls"></audio>
-   <p> 我们</p>
-   <p>回不到最初<p/>
-   <p>就重新开始</p>
-	
+   <p id="abc"> 这就是</p>
+   <p id="cba">h5网页<p/>
+
 </body>
 </html>
