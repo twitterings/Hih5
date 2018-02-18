@@ -19,26 +19,34 @@
 		50%{opacity: 0}
 		100%{opacity: 0}
         }
-		@keyframes cba {
+	@keyframes cba {
                 0%{opacity:0}
-        	50%{opacity: 0}
+        	50%{opacity:100}
+		75%{opacity:0}
+		100%{opacity: 0}
+		}
+	@keyframes bac {
+                0%{opacity:0}
+        	25%{opacity: }
 		75%{opacity:100}
 		100%{opacity: 0}
 		}
         p{
-		font-size:50%;
+		font-size100%;
 		position:absolute;
-		width:50%;
+		width:100%;
 		text-align:center;
 		}
 		#abc{animation: abc 38s infinite;}
 		#cba{animation: cba 38s infinite;}
+		#bac{animation: bac 38s infinite;}
 	</style>
 </head>
 <body>
 	<audio src="./wav/aeonnight万古 - 教授鈴聲.mp3" controls="controls"></audio>
    <p id="abc"> 这就是</p>
    <p id="cba">h5网页<p/>
+   <p id="bac">哈哈哈</p>
 
 </body>
 </html>
