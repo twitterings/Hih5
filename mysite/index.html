@@ -6,28 +6,38 @@
 	<style type="text/css">
         body{
 
-        	background-image: url(images/timg.jpg);
+        	background-image: url(images/timg1.jpg);
         	background-size: 100% 100%;
         	height: 100%
            }
         html{
         	height: 100%;
         }
-        @keyframes abc {
-        	0%{opacity:0}
-        	25%{opacity: 100}
-		50%{opacity: 0}
-		100%{opacity: 0}
-        }
-	@keyframes cba {
-                0%{opacity:0}
-        	50%{opacity:100}
+	@keyframes aaa {
+                0%{opacity:100}
+        	25%{opacity:0}
+		50%{opacity:0}
 		75%{opacity:0}
 		100%{opacity: 0}
 		}
+        @keyframes abc {
+        	0%{opacity:0}
+        	25%{opacity:100}
+		50%{opacity: 0}
+		75%{opacity:0}
+		100%{opacity:0}
+        }
+	@keyframes cba {
+                0%{opacity:0}
+		25%{opacity:0}
+        	50%{opacity:100}
+		75%{opacity:0}
+		100%{opacity:0}
+		}
 	@keyframes bac {
                 0%{opacity:0}
-        	25%{opacity: }
+        	25%{opacity:0}
+		50%{opacity:0}
 		75%{opacity:100}
 		100%{opacity: 0}
 		}
@@ -37,6 +47,7 @@
 		width:100%;
 		text-align:center;
 		}
+		#aaa{animation: aaa 38s infinite;}
 		#abc{animation: abc 38s infinite;}
 		#cba{animation: cba 38s infinite;}
 		#bac{animation: bac 38s infinite;}
@@ -44,7 +55,7 @@
 </head>
 <body>
 	<audio src="./wav/aeonnight万古 - 教授鈴聲.mp3" controls="controls"></audio>
-	<p id="aaa">嘿！</p>
+   <p id="aaa">嘿！</p>
    <p id="abc"> 这就是</p>
    <p id="cba">h5网页<p/>
    <p id="bac">哈哈哈</p>
