@@ -14,31 +14,31 @@
         	height: 100%;
         }
 	@keyframes aaa {
-                0%{opacity:100}
-        	25%{opacity:0}
-		50%{opacity:0}
-		75%{opacity:0}
+                0%{opacity:0}
+        	20%{opacity:100}
+		40%{opacity:0}
+                 60%{opacity:0}
 		100%{opacity: 0}
 		}
         @keyframes abc {
         	0%{opacity:0}
-        	25%{opacity:100}
-		50%{opacity: 0}
-		75%{opacity:0}
+        	20%{opacity:0}
+		40%{opacity: 100}
+		60%{opacity:0}
 		100%{opacity:0}
         }
 	@keyframes cba {
                 0%{opacity:0}
-		25%{opacity:0}
-        	50%{opacity:100}
-		75%{opacity:0}
+        	40%{opacity:0}
+		60%{opacity:100}
 		100%{opacity:0}
 		}
 	@keyframes bac {
                 0%{opacity:0}
-        	25%{opacity:0}
-		50%{opacity:0}
-		75%{opacity:100}
+        	20%{opacity:0}
+		40%{opacity:0}
+		60%{opacity:0}
+		80%{opacity:100}
 		100%{opacity: 0}
 		}
         p{
@@ -46,6 +46,7 @@
 		position:absolute;
 		width:100%;
 		text-align:center;
+		float:left;
 		}
 		#aaa{animation: aaa 38s infinite;}
 		#abc{animation: abc 38s infinite;}
